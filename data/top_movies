@@ -478,7 +478,7 @@ dfpConfig.adomikKeyValues.ad_h = (new Date).getUTCHours().toString()</script><sc
   {window.performance.mark('tbl_ic');}
 })();</script></body></html><!--
      FILE ARCHIVED ON 07:38:55 May 18, 2020 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 15:16:13 Aug 02, 2025.
+     INTERNET ARCHIVE ON 15:43:19 Aug 02, 2025.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -486,13 +486,13 @@ dfpConfig.adomikKeyValues.ad_h = (new Date).getUTCHours().toString()</script><sc
 -->
 <!--
 playback timings (ms):
-  captures_list: 0.508
-  exclusion.robots: 0.035
-  exclusion.robots.policy: 0.025
-  esindex: 0.009
-  cdx.remote: 18.506
-  LoadShardBlock: 317.862 (3)
-  PetaboxLoader3.datanode: 153.67 (4)
-  load_resource: 134.229
-  PetaboxLoader3.resolve: 83.037
+  captures_list: 0.551
+  exclusion.robots: 0.029
+  exclusion.robots.policy: 0.018
+  esindex: 0.008
+  cdx.remote: 8.081
+  LoadShardBlock: 490.125 (3)
+  PetaboxLoader3.datanode: 104.202 (4)
+  PetaboxLoader3.resolve: 339.637 (2)
+  load_resource: 87.837
 -->

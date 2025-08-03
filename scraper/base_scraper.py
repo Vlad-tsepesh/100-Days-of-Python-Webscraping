@@ -4,15 +4,16 @@ from fh.file_handler import FileHandler
 
 
 class BaseScraper:
-    def __init__(self, db_handler, file_name, url):
+    def __init__(self, db_handler, file_name, url, headers=""):
         self.file_handler = FileHandler()
         self.db_handler = db_handler
         self.file_name = file_name
         self.url = url
+        self.headers = headers
         self.soup = None
 
     def get_and_save_html(self):
-        if self.file_handler.get_html(self.url, self.file_name):
+        if self.file_handler.get_html(self.url, self.file_name,self.headers):
             self.file_handler.save_html(self.file_name)
 
     def load_html(self):

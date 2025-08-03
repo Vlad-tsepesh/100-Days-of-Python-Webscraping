@@ -7,11 +7,11 @@ class FileHandler:
         self.html: str = ""
         self.path = PathManager()
 
-    def get_html(self, url: str, file_name: str) -> bool:
+    def get_html(self, url: str, file_name: str, headers) -> bool:
         path = self.path.get_data_path(file_name)
         if path.exists():
             return False
-        response = requests.get(url)
+        response = requests.get(url, headers)
         response.raise_for_status()  # Good practice to catch HTTP errors
         self.html = response.text
         return True

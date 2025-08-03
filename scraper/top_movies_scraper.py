@@ -1,7 +1,6 @@
 import re
 
 from db.top_movies_db import TopMoviesDB
-from fh.file_handler import FileHandler
 from scraper.base_scraper import BaseScraper
 
 
