@@ -1,6 +1,7 @@
 import requests
-import os
+
 from fh.path_manager import PathManager
+
 
 class FileHandler:
     def __init__(self):
@@ -28,4 +29,3 @@ class FileHandler:
         with open(path, "r", encoding="utf-8") as file:
             self.html = file.read()
         return self.html
-
