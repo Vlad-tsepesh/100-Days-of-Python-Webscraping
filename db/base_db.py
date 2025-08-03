@@ -1,7 +1,8 @@
 import sqlite3
 from abc import ABC, abstractmethod
-import os
+
 from fh.path_manager import PathManager
+
 
 class BaseDB(ABC):
     def __init__(self, db_file):
