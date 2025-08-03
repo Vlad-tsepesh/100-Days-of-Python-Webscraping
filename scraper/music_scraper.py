@@ -10,7 +10,7 @@ class MusicScraper(BaseScraper):
 
     def parse_data(self):
         title_tags = self.soup.find_all(class_="o-chart-results-list-row")
-        return [(line.strip() for line in song.text.split("LW")[0].splitlines() if line.strip() and not "NEW" in line) for
+        return [(line.strip() for line in song.text.split("LW")[0].splitlines() if line.strip() and not "NEW" in line and not "RE-" in line and not "ENTRY" in line) for
           song in title_tags]
 
     def save_to_db(self, data):

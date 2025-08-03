@@ -28,3 +28,9 @@ class TopMusicDB(BaseDB):
             WHERE ID = ?
         """, (id,))
         self.conn.commit()
+
+    def get_songs(self):
+        self.cursor.execute("""
+            SELECT * FROM music
+        """)
+        return self.cursor.fetchall()
